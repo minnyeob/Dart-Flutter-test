@@ -54,4 +54,32 @@ void main() {
   // num = int, double대신 가능
   // dart는 객체지향 = 모든 명령어가  class
   // 뒤에 .을 붙이면 method를 사용할 수 있음
+
+  /*
+    // 배열 생성
+    // List<int> numbers = [1, 2, 3, 4];
+    // 똑같은 구문임
+    var giveMeFive = true;
+    var numbers = [1,
+                  2,
+                  3,
+                  4,
+                  if(giveMeFive) 5,
+                  // 만약 giveMeFive가 충족시에는 5를 넣음
+                  ];
+    // 처음 수를 가져옴
+    numbers.first
+    // 마지막 요소를 가져옴
+    numbers.last
+
+    // collection if, collection for 지원
+    // collection if = 리스트의 계수를 조건을 통해 추가가능
+  */
+
+  // string interpolation
+  var name = 'minyeop';
+  var age = 22;
+  var greeting = 'Hello, my name is $name and im ${age + 1}';
+  print(greeting);
+  // 출력 : Hello, my name is minyeop im 23
 }
