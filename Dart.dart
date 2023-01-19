@@ -75,13 +75,14 @@ void main() {
     // collection if, collection for 지원
     // collection if = 리스트의 계수를 조건을 통해 추가가능
   */
-
+  /*
   // string interpolation
   var name = 'minyeop';
   var age = 22;
   var greeting = 'Hello, my name is $name and im ${age + 1}';
   print(greeting);
   // 출력 : Hello, my name is minyeop im 23
+  */
 
   /*
     var oldFriends = ['nico', 'lynn'];
@@ -93,4 +94,5 @@ void main() {
     ];
     print(newFriends);
   */
+  print("test");
 }
