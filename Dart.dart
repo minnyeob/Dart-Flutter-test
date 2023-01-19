@@ -82,4 +82,15 @@ void main() {
   var greeting = 'Hello, my name is $name and im ${age + 1}';
   print(greeting);
   // 출력 : Hello, my name is minyeop im 23
+
+  /*
+    var oldFriends = ['nico', 'lynn'];
+    var newFriends = [
+      'lewis',
+      'ralph',
+      'darren',
+      for (var friend in oldFriends) "old friend $friend",
+    ];
+    print(newFriends);
+  */
 }
