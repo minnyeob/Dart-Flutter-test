@@ -94,5 +94,4 @@ void main() {
     ];
     print(newFriends);
   */
-  print("test");
 }
